@@ -15,7 +15,8 @@ jsonFile contains the desired capabilities
 Example of usage
 <br><br>
 
-`public void getAndroidDriver (){
+```
+public void getAndroidDriver (){
 
 		  selenoid sel = new selenoid (String jsonFile);
 		  
@@ -23,7 +24,7 @@ Example of usage
 		  
 		 AppiumDriver<AndroidElement> androidDriver =  (AppiumDriver<AndroidElement>) sel.desiredCapabilitiesConfig(jsonFile, DriverType.Android_Native);
 	}
-  
+ ```
  DriverType 
 public enum DriverType {
 
