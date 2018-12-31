@@ -1,7 +1,7 @@
 # Coriander
 Selenium Webdriver and Appium extension module framework - this combines some functions of webdriver / appium and include some other functions. 
 
-This is created in 2018 June. Selenoid is part of Coriander where it focus on abstraction for common web and mobile usages.
+This is created in 2018 June. Selenoid is part of Coriander where it focus on gestures / UI interactions for common web and mobile usages.
 
 
 _Setup (Android / iOS / Webdriver)_ 
