@@ -85,4 +85,66 @@ iOS double tap on x , y
 iOSDoubleTap (float x, float y)
 
 
-WebDriver Wait
+<br><br>
+iOS single tap on element
+
+void iOSTap (IOSElement element)
+
+<br><br>
+iOS single tap on x, y coordinates
+
+void  iOSTap (float x, float y)
+
+<br><br>
+iOS two finger tap on Element
+
+void  iOSTwoFingersTap (IOSElement element)
+
+<br><br>
+iOS general two finger tap
+
+void  iOSTwoFingersTap ()
+
+<br><br>
+iOS drag and drop
+
+void iOSDragAndDrop (float x1, float y1, float x2, float y2, IOSElement element)
+
+<br><br>
+iOS PickelWheel
+
+void iOSPickerWheel (IOSElement element, String order , float offset)
+
+
+# Web 
+<br><br>
+Web Scroll up or down
+
+void webScroll ( int endx , int endy)
+
+<br><br>
+Web search a string in list box , click and. Returns false if cannot find
+
+boolean webClickDropdown(List <WebElement> elems, String searchString)
+	
+<br><br>
+Web find element in second level of iFrame 
+
+WebElement findElementInSecondLeveliFrame (By by)
+
+
+# General usage
+<br><br>
+There are a several public properties under this. But I am testing it and expanding it. Will document them here when they passed my tests
+
+
+<br><br>
+Web / Mobile - Check that it is visible / presence before clicking
+
+void clickElement (By by)
+
+<br><br>
+Web / Mobile - Check that it is visible / presence before sending text. Will clear text before sending
+
+void sendKeys (By by, String text) 
+ 
