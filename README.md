@@ -15,7 +15,7 @@ jsonFile contains the desired capabilities
 Example of usage
 <br><br>
 
-```public void getAndroidDriver (){
+`public void getAndroidDriver (){
 
 		  selenoid sel = new selenoid (String jsonFile);
 		  
