@@ -16,13 +16,13 @@ Example of usage
 <br><br>
 
 ```
-public void getAndroidDriver (){
+public AppiumDriver<AndroidElement> getAndroidDriver (){
 
 		  selenoid sel = new selenoid (String jsonFile);
 		  
 		  String jsonFile = "MyApp.json"
 		  
-		 AppiumDriver<AndroidElement> androidDriver =  (AppiumDriver<AndroidElement>) sel.desiredCapabilitiesConfig(jsonFile, DriverType.Android_Native);
+		 return  (AppiumDriver<AndroidElement>) sel.desiredCapabilitiesConfig(jsonFile, DriverType.Android_Native);
 	}
  ```
  <br><br>
