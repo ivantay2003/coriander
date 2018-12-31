@@ -1,9 +1,10 @@
 # Coriander
 Selenium Webdriver and Appium extension module framework - this combines some functions of webdriver / appium and include some other functions. 
 
-This is created in 2018 June. Selenoid is part of Coriander where it focus on abstraction for common usages.
+This is created in 2018 June. Selenoid is part of Coriander where it focus on abstraction for common web and mobile usages.
 
-Setup (Android / iOS / Webdriver)
+
+_Setup (Android / iOS / Webdriver)_ 
 
 selenoid sel = new selenoid (String jsonFile);
 
@@ -12,9 +13,12 @@ jsonFile contains the desired capabilities
 
 
 Example of usage
-public void getAndroidDriver (){
-		config = new Configuration();
-		
+<br><br>
+
+```public void getAndroidDriver (){
+
+		  selenoid sel = new selenoid (String jsonFile);
+		  
 		  String jsonFile = "MyApp.json"
 		  
 		 AppiumDriver<AndroidElement> androidDriver =  (AppiumDriver<AndroidElement>) sel.desiredCapabilitiesConfig(jsonFile, DriverType.Android_Native);
