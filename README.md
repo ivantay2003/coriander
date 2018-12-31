@@ -30,36 +30,58 @@ You may use either one in Desired Capabilities
 
 # Gestures usage
 
+
+# Android Gesture
+<br><br>
 Android Navigate back button
+
 void androidNavigateBack ()
 
+<br><br>
 Android Scroll to UI Text
+
 void androidScrollUIAutomatorText(String text)
 
+<br><br>
 Android Swipe - Swipe left / right / up / down
+
 void androidSwipe(AppiumDriver <AndroidElement> driver, int startx, int starty, int endx,int endy,Duration duration)
-	
+
+<br><br>
 Android scroll down
+
 void androidScrollDown( int startX, int startY,int xOffset, int yOffset )
 
+<br><br>
 Android - Find UI by xpath
+
 boolean androidScrollUIUntilFindXPath(By xpath, int NumberOfScrolls)
 
 
 ## iOS gesture
+<br><br>
 iOS navigate back
+
 void iOSNavigateBack ()
 
+<br><br>
 iOs move direction. move can be "left" , "right"
+
 void iOSHorizontalScroll(String move)
 
+<br><br>
 iOS Swipe scroll down
+
 void iOSSwipeScroll (IOSDriver <IOSElement> driver, WebElement element, int xOffset, int yOffset)
 
+<br><br>
 iOS double tap on element
+
 iOSDoubleTap (IOSElement element)
 
+<br><br>
 iOS double tap on x , y
+
 iOSDoubleTap (float x, float y)
 
 
