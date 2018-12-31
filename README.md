@@ -25,19 +25,22 @@ public void getAndroidDriver (){
 		 AppiumDriver<AndroidElement> androidDriver =  (AppiumDriver<AndroidElement>) sel.desiredCapabilitiesConfig(jsonFile, DriverType.Android_Native);
 	}
  ```
- DriverType 
+ <br><br>
+ DriverType . This are the enums for DriverTypes currently
+ ```
 public enum DriverType {
 
 	Android_Native , iOS_Native , Web_Chrome , Web_Firefox 
 }
-
+```
+<br><br>
 You may use either one in Desired Capabilities
 
 
 # Gestures usage
 
 
-# Android Gesture
+## Android Gesture
 <br><br>
 Android Navigate back button
 
@@ -122,7 +125,7 @@ iOS PickelWheel
 void iOSPickerWheel (IOSElement element, String order , float offset)
 
 
-# Web 
+## Web 
 <br><br>
 Web Scroll up or down
 
