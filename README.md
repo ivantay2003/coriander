@@ -36,6 +36,20 @@ public enum DriverType {
 <br><br>
 You may use either one in Desired Capabilities
 
+<br><br><br>
+Example of JSON file
+```
+{
+"deviceName": "iPhone 11",
+"platformName": "IOS",
+"automationName": "XCuiTest",
+"platformVersion": "13.1",
+"app": "/Users/Download//UICatalog.app",
+"noReset": "true",
+"forceMjsonwp": "true",    
+}
+
+```
 
 # Gestures usage
 
