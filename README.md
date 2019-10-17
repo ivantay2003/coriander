@@ -155,6 +155,19 @@ Web find element in second level of iFrame
 
 WebElement findElementInSecondLeveliFrame (By by)
 
+<br><br>
+Web switch to another tab in browser 
+
+void webSwitchTab (boolean closeOriginalTab)
+
+<br><br>
+
+Web select dropdrown and click the successful search string element
+
+webClickDropdown(List <WebElement> elems, String searchString)
+	
+<br><br>
+
 
 # General usage
 <br><br>
@@ -170,4 +183,15 @@ void clickElement (By by)
 Web / Mobile - Check that it is visible / presence before sending text. Will clear text before sending
 
 void sendKeys (By by, String text) 
+
+<br><br>
+Web / Mobile - Check that it is visible / presence before sending text. Will clear text before sending. Use this is sendKeys do not work
+
+void setValue (By by, String text)
+
+<br><br>
+Web / Mobile - Check that it is visible / presence before sending text. The send keys do not include enter like sendKeys()
+
+void sendKeysNoEnter (By by, String text)
+
  
