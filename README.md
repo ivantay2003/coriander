@@ -3,7 +3,11 @@ Selenium Webdriver and Appium extension module framework - this combines some fu
 
 This is created in 2018 June, updated regularly as I work along different projects. Selenoid is part of Coriander where it focus on gestures / UI interactions for common web and mobile usages.
 
+<br><br>
+_Prerequisite_
+Install Appium. See [Link](https://www.linkedin.com/pulse/setting-up-appium-mac-os-x-ivan-tay/) for instruction.
 
+<br><br>
 _Setup (Android / iOS / Webdriver)_ 
 
 selenoid sel = new selenoid (String jsonFile);
@@ -58,7 +62,7 @@ Example of JSON file
 <br><br>
 Android Navigate back button
 
-void androidNavigateBack ()
+_void androidNavigateBack ()_
 
 <br><br>
 Android Scroll to UI Text
