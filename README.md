@@ -68,108 +68,108 @@ void androidScrollUIAutomatorText(String text)
 <br><br>
 Android Swipe - Swipe left / right / up / down
 
-void androidSwipe(AppiumDriver <AndroidElement> driver, int startx, int starty, int endx,int endy,Duration duration)
+_void androidSwipe(AppiumDriver <AndroidElement> driver, int startx, int starty, int endx,int endy,Duration duration)_
 
 <br><br>
 Android scroll down
 
-void androidScrollDown( int startX, int startY,int xOffset, int yOffset )
+_void androidScrollDown( int startX, int startY,int xOffset, int yOffset )_
 
 <br><br>
 Android - Find UI by xpath
 
-boolean androidScrollUIUntilFindXPath(By xpath, int NumberOfScrolls)
+_boolean androidScrollUIUntilFindXPath(By xpath, int NumberOfScrolls)_
 
 
 ## iOS gesture
 <br><br>
 iOS navigate back
 
-void iOSNavigateBack ()
+_void iOSNavigateBack ()_
 
 <br><br>
 iOs move direction. move can be "left" , "right"
 
-void iOSHorizontalScroll(String move)
+_void iOSHorizontalScroll(String move)_
 
 <br><br>
 iOS Swipe scroll down
 
-void iOSSwipeScroll (IOSDriver <IOSElement> driver, WebElement element, int xOffset, int yOffset)
+_void iOSSwipeScroll (IOSDriver <IOSElement> driver, WebElement element, int xOffset, int yOffset)_
 
 <br><br>
 iOS double tap on element
 
-iOSDoubleTap (IOSElement element)
+_iOSDoubleTap (IOSElement element)_
 
 <br><br>
 iOS double tap on x , y
 
-iOSDoubleTap (float x, float y)
+_iOSDoubleTap (float x, float y)_
 
 
 <br><br>
 iOS single tap on element
 
-void iOSTap (IOSElement element)
+_void iOSTap (IOSElement element)_
 
 <br><br>
 iOS single tap on x, y coordinates
 
-void  iOSTap (float x, float y)
+_void  iOSTap (float x, float y)_
 
 <br><br>
 iOS two finger tap on Element
 
-void  iOSTwoFingersTap (IOSElement element)
+_void  iOSTwoFingersTap (IOSElement element)_
 
 <br><br>
 iOS general two finger tap
 
-void  iOSTwoFingersTap ()
+_void  iOSTwoFingersTap ()_
 
 <br><br>
 iOS drag and drop
 
-void iOSDragAndDrop (float x1, float y1, float x2, float y2, IOSElement element)
+_void iOSDragAndDrop (float x1, float y1, float x2, float y2, IOSElement element)_
 
 <br><br>
 iOS PickelWheel
 
-void iOSPickerWheel (IOSElement element, String order , float offset)
+_void iOSPickerWheel (IOSElement element, String order , float offset)_
 
 
 ## Web 
 <br><br>
 Web Scroll up or down
 
-void webScroll ( int endx , int endy)
+_void webScroll ( int endx , int endy)_
 
 <br><br>
 Web search a string in list box , click and. Returns false if cannot find
 
-boolean webClickDropdown(List <WebElement> elems, String searchString)
+_boolean webClickDropdown(List <WebElement> elems, String searchString)_
 	
 <br><br>
 Web find element in second level of iFrame 
 
-WebElement findElementInSecondLeveliFrame (By by)
+_WebElement findElementInSecondLeveliFrame (By by)_
 
 <br><br>
 Web switch to another tab in browser 
 
-void webSwitchTab (boolean closeOriginalTab)
+_void webSwitchTab (boolean closeOriginalTab)_
 
 <br><br>
 
 Web select dropdrown and click the successful search string element
 
-webClickDropdown(List <WebElement> elems, String searchString)
+_webClickDropdown(List <WebElement> elems, String searchString)_
 	
 <br><br>
 Web Use action to move to element and click
 
-void clickAction (By by)
+_void clickAction (By by)_
 
 <br><br>
 
@@ -183,52 +183,52 @@ There are a several public properties under this. But I am testing it and expand
 <br><br>
 Web / Mobile - Check that it is visible / presence before clicking
 
-void clickElement (By by)
+_void clickElement (By by)_
 
 <br><br>
 Web / Mobile - Check that it is visible / presence before sending text. Will clear text before sending
 
-void sendKeys (By by, String text) 
+_void sendKeys (By by, String text)_ 
 
 <br><br>
 Web / Mobile - Check that it is visible / presence before sending text. Will clear text before sending. Use this is sendKeys do not work
 
-void setValue (By by, String text)
+_void setValue (By by, String text)_
 
 <br><br>
 Web / Mobile - Check that it is visible / presence before sending text. The send keys do not include enter like sendKeys()
 
-void sendKeysNoEnter (By by, String text)
+_void sendKeysNoEnter (By by, String text)_
 
 <br><br>
 Web / Mobile - Get element text. This will also check for presence before execution
 
-public String getElementText (By by)
+_public String getElementText (By by)_
 
 <br><br>
 Web / Mobile - Explicit wait Presence. Return true if found. False otherwise
 
-public boolean isPresence(By by)
+_public boolean isPresence(By by)_
 
 <br><br>
 Web / Mobile - Explicit wait clickable. Return true if found. False otherwise
 
-public boolean isClickable(By by)
+_public boolean isClickable(By by)_
 
 <br><br>
 Web / Mobile - Explicit wait visible. Return true if found. False otherwise
 
-public boolean isVisible (By by)
+_public boolean isVisible (By by)_
 
 <br><br>
 Web / Mobile - Explicit wait invisibility. Return true if found. False otherwise
 
-public boolean isInvisible (By by)
+_public boolean isInvisible (By by)_
 
 <br><br>
 Web / Mobile - Explicit wait by XPath string. Return true if found. False otherwise
 
-public boolean isPresenceXPath (String xpath_element)
+_public boolean isPresenceXPath (String xpath_element)_
 
 <br><br>
 
