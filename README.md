@@ -167,6 +167,12 @@ Web select dropdrown and click the successful search string element
 webClickDropdown(List <WebElement> elems, String searchString)
 	
 <br><br>
+Web Use action to move to element and click
+
+void clickAction (By by)
+
+<br><br>
+
 
 
 # General usage
@@ -178,6 +184,7 @@ There are a several public properties under this. But I am testing it and expand
 Web / Mobile - Check that it is visible / presence before clicking
 
 void clickElement (By by)
+
 
 <br><br>
 Web / Mobile - Check that it is visible / presence before sending text. Will clear text before sending
@@ -193,5 +200,6 @@ void setValue (By by, String text)
 Web / Mobile - Check that it is visible / presence before sending text. The send keys do not include enter like sendKeys()
 
 void sendKeysNoEnter (By by, String text)
+
 
  
