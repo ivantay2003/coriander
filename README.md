@@ -185,7 +185,6 @@ Web / Mobile - Check that it is visible / presence before clicking
 
 void clickElement (By by)
 
-
 <br><br>
 Web / Mobile - Check that it is visible / presence before sending text. Will clear text before sending
 
@@ -201,5 +200,36 @@ Web / Mobile - Check that it is visible / presence before sending text. The send
 
 void sendKeysNoEnter (By by, String text)
 
+<br><br>
+Web / Mobile - Get element text. This will also check for presence before execution
+
+public String getElementText (By by)
+
+<br><br>
+Web / Mobile - Explicit wait Presence. Return true if found. False otherwise
+
+public boolean isPresence(By by)
+
+<br><br>
+Web / Mobile - Explicit wait clickable. Return true if found. False otherwise
+
+public boolean isClickable(By by)
+
+<br><br>
+Web / Mobile - Explicit wait visible. Return true if found. False otherwise
+
+public boolean isVisible (By by)
+
+<br><br>
+Web / Mobile - Explicit wait invisibility. Return true if found. False otherwise
+
+public boolean isInvisible (By by)
+
+<br><br>
+Web / Mobile - Explicit wait by XPath string. Return true if found. False otherwise
+
+public boolean isPresenceXPath (String xpath_element)
+
+<br><br>
 
  
