@@ -233,3 +233,5 @@ public boolean isPresenceXPath (String xpath_element)
 <br><br>
 
  
+<br><br><br><br>
+I can be contacted by [Linkedin](http://www.linkedln.ivantay.org) or Skype : *tay.phones*
