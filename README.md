@@ -1,7 +1,7 @@
 # Coriander
 Selenium Webdriver and Appium extension module framework - this combines some functions of webdriver / appium and extend  other functions. 
 
-This is created in 2018 June, updated regularly as I work along different projects. Selenoid is part of Coriander where it focus on gestures / UI interactions for common web and mobile usages. This repo is for Java.
+This is created in 2018 June, updated regularly as I work along different projects. Selenoid is part of Coriander where it focus on gestures / UI interactions for common web and mobile usages. This repositary is for Java.
 
 <br><br>
 _Prerequisite_<br>
