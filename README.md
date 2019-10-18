@@ -10,8 +10,10 @@ Install Appium. See [Link](https://www.linkedin.com/pulse/setting-up-appium-mac-
 <br><br>
 _Setup (Android / iOS / Webdriver)_ 
 
+```
 selenoid sel = new selenoid (String jsonFile);
-
+```
+<br>
 jsonFile contains the desired capabilities 
 
 
