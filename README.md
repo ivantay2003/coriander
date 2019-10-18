@@ -40,7 +40,7 @@ public enum DriverType {
 }
 ```
 <br><br>
-You may use either one in Desired Capabilities
+You may use one of DriverType when initializing Selenoid. 
 
 <br><br><br>
 Example of JSON file
@@ -58,7 +58,7 @@ Example of JSON file
 ```
 
 # Gestures usage
-
+<br><br>
 
 ## Android Gesture
 <br><br>
@@ -85,6 +85,7 @@ _void androidScrollDown( int startX, int startY,int xOffset, int yOffset )_
 Android - Find UI by xpath
 
 _boolean androidScrollUIUntilFindXPath(By xpath, int NumberOfScrolls)_
+<br><br><br>
 
 
 ## iOS gesture
@@ -143,6 +144,7 @@ _void iOSDragAndDrop (float x1, float y1, float x2, float y2, IOSElement element
 iOS PickelWheel
 
 _void iOSPickerWheel (IOSElement element, String order , float offset)_
+<br><br><br>
 
 
 ## Web 
@@ -177,7 +179,8 @@ Web Use action to move to element and click
 
 _void clickAction (By by)_
 
-<br><br>
+
+<br><br><br>
 
 
 
