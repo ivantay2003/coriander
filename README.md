@@ -4,7 +4,7 @@ Selenium Webdriver and Appium extension module framework - this combines some fu
 This is created in 2018 June, updated regularly as I work along different projects. Selenoid is part of Coriander where it focus on gestures / UI interactions for common web and mobile usages.
 
 <br><br>
-_Prerequisite_
+_Prerequisite_<br>
 Install Appium. See [Link](https://www.linkedin.com/pulse/setting-up-appium-mac-os-x-ivan-tay/) for instruction.
 
 <br><br>
